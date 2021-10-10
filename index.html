@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Simplified IT Submission Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Simplified IT</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2>Guides</h2>
+        <ul>
+          <li>New Employee</li>
+          <li>TempWorks</li>
+          <li>Printer/Scanner Setup</li>
+          <li>Device Request</li>
+          <li>Device Setup</li>
+          <li>General Troubleshooting</li>
+          <li>Guides and How-To-Do's</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h2>Systems</h2>
+        <ul>
+          <li>Tempworks</li>
+          <li>E-Verify</li>
+          <li>COATS</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <p>Still have an issue? Please use the template below to submit a ticket.</p>
+  <div id="form">
+    <h2>Ticket Submission</h2>
+    <form>
+      <div class="mb-3">
+        <label class="form-label">Short Description</label>
+        <input type="text" class="form-control">
+
+        <label class="form-label">Description</label>
+        <textarea class="form-control" rows="3">Steps that led to the issue:
+Error Code:
+System:
+        </textarea>
+
+        <label class="form-label">What have you tried so far?</label>
+        <textarea class="form-control" rows="2"></textarea>
+
+        <div class="row">
+          <h3>Teamviewer Info</h3>
+          <div class="col">
+            <label class="form-label">ID</label>
+            <input type="text" class="form-control" placeholder="123 456 789">
+          </div>
+
+          <div class="col">
+            <label class="form-label">Password</label>
+            <input type="text" class="form-control" placeholder="a1b2c4t">
+          </div>
+        </div>
+
+        <br>
+        <input type="submit">
+      </div>
+
+
+    </form>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
